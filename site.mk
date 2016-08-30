@@ -124,5 +124,8 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 
+# Region code required for some images; supported values: us eu
+GLUON_REGION ?= eu
+
 # Languages to include
 GLUON_LANGS ?= de en
